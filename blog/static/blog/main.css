@@ -1,0 +1,151 @@
+html {
+  height: 100%;
+}
+
+body {
+  background-image: url('https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-size: cover; /* Cover the entire page */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-attachment: fixed; /* Fix the background image */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Minimum viewport height */
+  margin: 0; /* Remove default margin */
+}
+
+.bg-dark {
+  background-color: rgba(0, 123, 255, .25) !important;
+}
+
+h2, h3, h4, h5, h6 {
+  color: #58c5cf;
+  margin: 5px;
+}
+
+h1 {
+  color: #51cbd6;
+  margin: 20px;
+  text-align: center;
+}
+
+ul {
+  margin: 0;
+}
+
+.bg-steel {
+  background-color: #2a8dd3;
+}
+
+.site-header .navbar-nav .nav-link {
+  color: #cae6f7;
+}
+
+.site-header .navbar-nav .nav-link:hover {
+  color: #fef4f4;
+}
+
+.site-header .navbar-nav .nav-link.active {
+  font-weight: 500;
+}
+
+.content-section {
+  background: #ffffff;
+  padding: 5px 10px;
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
+.article-title {
+  color: #6f3f3f;
+  font-size: medium;
+}
+
+a.article-title:hover {
+  color: #0f83e9;
+  text-decoration: none;
+}
+
+.article-content {
+  white-space: pre-line;
+}
+
+.article-img {
+  height: 65px;
+  width: 65px;
+  margin-right: 16px;
+}
+
+.article-metadata {
+  padding-bottom: 1px;
+  margin-bottom: 4px;
+  border-bottom: 1px solid #e1c8c8
+}
+
+.article-metadata a:hover {
+  color: #342d2d;
+  text-decoration: none;
+}
+
+.article-svg {
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+}
+
+.account-img {
+  height: 125px;
+  width: 125px;
+  margin-right: 20px;
+  margin-bottom: 16px;
+}
+
+.account-heading {
+  font-size: 2.5rem;
+}
+
+.container.my-bg {
+  flex: 1 0 auto; /* Grow to fill available space */
+  margin-top: 20px;
+}
+
+.image-container {
+  text-align: center;
+  position: relative; /* Adjust if needed based on your design */
+  margin-top: -30px; /* Pulls the image container up */
+  z-index: 0; /* Ensures it does not overlay on top of other content */
+}
+
+.card {
+  overflow: hidden;
+  position: relative;
+  padding-top: 60px; /* Adjusts padding to accommodate the image */
+}
+
+.card-img-top {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-top: -50px; /* Pulls the image upwards */
+  display: block;
+  margin-left: auto;
+  margin-right: auto; /* Centers the image */
+}
+
+
+.footer {
+  background-color: #343a40; /* Dark footer background */
+  color: white;             /* White text color */
+  flex-shrink: 0; /* Do not allow the footer to shrink */
+  width: 100%; /* Full width */
+}
+
+.footer a {
+  color: #f8f9fa;          /* Light color for any links in the footer */
+  text-decoration: none;   /* No underline on links */
+}
+
+.footer a:hover {
+  color: #adb5bd;          /* Light grey color on hover for links */
+}
